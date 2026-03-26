@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sdd-search": {
+      "command": "node",
+      "args": ["mcp/dist/index.js"],
+      "env": {
+        "SDD_DB_PATH": "mcp/sdd_vectors.db",
+        "SDD_PROJECT_ROOT": "."
+      }
+    }
+  }
+}
